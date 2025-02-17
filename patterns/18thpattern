@@ -1,0 +1,21 @@
+void alphaTriangle(int n) {
+    for (int i = 1; i <= n; i++) {
+        for (char ch = 'C'; ch >= 'C' - (i - 1); ch--) {
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+    // Write your code here.
+}
+
+
+
+/*
+
+
+Output: 
+C
+C B 
+C B A
+
+*/
