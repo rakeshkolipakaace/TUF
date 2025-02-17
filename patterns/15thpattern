@@ -1,0 +1,22 @@
+void nLetterTriangle(int n) {
+    for(int i=n;i>=1;i--){
+        
+        for(char names='A';names<='A'+i-1;names++){
+            cout<<names<<" ";
+
+        }
+        cout<<endl;
+    }
+    // Write your code here.
+}
+
+
+
+/*
+Output:
+
+A B C
+A B
+A
+
+*/
